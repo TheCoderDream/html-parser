@@ -1,15 +1,18 @@
 {
   "name": "symbols-html-parser",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Parse HTML to Object",
   "main": "main.js",
   "scripts": {
-    "test": "npx jest",
     "build": "tsc",
-    "start": ""
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCoderDream/html-parser"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emre Baskan",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.4",
